@@ -31,6 +31,6 @@ class BankAccount:
 Floyd = BankAccount('Floyd', 'thefloydmaywether@gmail.com', )
 Donald = BankAccount('Donald', 'number45@gmail.com')
 
-Jim.deposit(100).deposit(500).deposit(1000).withdraw(300).yield_interest().display_account_info()
+Floyd.deposit(100).deposit(500).deposit(1000).withdraw(300).yield_interest().display_account_info()
 
 Donald.deposit(1000).deposit(12000).withdraw(1000).withdraw(500).withdraw(100).withdraw(200).yield_interest().display_account_info()
