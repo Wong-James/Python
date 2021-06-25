@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pip = "*"
-flask = "*"
 pymysql = "*"
+pip = "*"
+mysql = "*"
+flask = "*"
+shell = "*"
 
 [dev-packages]
 

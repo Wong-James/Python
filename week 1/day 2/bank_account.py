@@ -1,5 +1,6 @@
 class BankAccount:
 
+
     def __init__(self, name, email, int_rate = .01, balance = 0): 
         self.name = name
         self.email = email
@@ -11,6 +12,7 @@ class BankAccount:
         self.balance += amount
         return self
 
+
     def withdraw(self, amount):
         if self.balance < amount:
             print("not enough money")
@@ -18,14 +20,17 @@ class BankAccount:
             self.balance -= amount
         return self
 
+
     def display_account_info(self):
         print(self.balance)
         return self
+
 
     def yield_interest(self):
         interest = self.balance * self.int_rate
         self.balance = self.balance + interest
         return self
+
         
         #increases the account balance by the current balance * the interest rate (as long as the balance is positive)
 Floyd = BankAccount('Floyd', 'thefloydmaywether@gmail.com', )
